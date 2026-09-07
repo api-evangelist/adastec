@@ -1,8 +1,19 @@
 aid: adastec
 name: Adastec
-description: 'Adastec is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  ADASTEC Corp. is an automated-driving software company headquartered in East Lansing, Michigan,
+  with offices in Helmond, Netherlands and Istanbul, Turkey. It develops flowride.ai, an SAE Level-4
+  automated driving software and sensor platform for full-size commercial vehicles — factory-fitted
+  electric buses and minibuses operated on pre-mapped public-road routes. The platform is organized
+  as flowride Drive (the on-vehicle automation stack and HMI connector), flowride Cloud (central
+  control, data storage, data sharing and what the company markets as an Open API) and flowride Apps
+  (remote management, command and control, a passenger application and analytics). Deployments run
+  with transit operators and bus OEM partners including Karsan, Beep and Applied Autonomy across the
+  United States, Sweden, Norway, Finland, Germany, Switzerland, the Netherlands, Romania and Turkey.
+  ADASTEC is a premium member of the Autoware Foundation. No public developer portal, API reference
+  or machine-readable contract is published for the flowride Cloud API.
 url: https://raw.githubusercontent.com/api-evangelist/adastec/refs/heads/main/apis.yml
+image: https://cdn.prod.website-files.com/600ad06ae00a6210fd3a2752/60215786b6466708c00a9abf_Adastec_Logo_onlyA256X256.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +23,14 @@ created: '2026-09-07'
 modified: '2026-09-07'
 tags:
 - Company
+- Autonomous Vehicles
+- Automated Driving
+- Public Transit
+- Transportation
+- Mobility
+- Fleet Management
+- Automotive
+- Robotics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +39,51 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://equityzen.com/company/adastec
+  url: https://www.adastec.com/
+- type: Blog
+  url: https://www.adastec.com/blog
+- type: Support
+  url: https://www.adastec.com/company-contact
+- type: GitHubOrganization
+  url: https://github.com/adastec
+- type: PrivacyPolicy
+  url: https://cdn.prod.website-files.com/600ad06ae00a6210fd3a2752/6508bba82a8174f84bc7f9ed_Website%20Privacy%20and%20Cookie%20Policy.pdf
+- type: LinkedIn
+  url: https://www.linkedin.com/company/adastec/
+- type: Twitter
+  url: https://twitter.com/adasteccorp
+- type: DomainSecurity
+  url: security/adastec-domain-security.yml
+- type: Conformance
+  url: conformance/adastec-conformance.yml
+- type: Compliance
+  url: conformance/adastec-conformance.yml
+- type: Plans
+  url: plans/adastec-plans-pricing.yml
+- type: LLMsTxt
+  url: llms/adastec-llms.txt
+
+x-coverage:
+  state: gated
+  reason: sales-gate
+  detail: >-
+    ADASTEC markets an "Open API" as a component of flowride Cloud on its product page, but
+    publishes no developer portal, API reference or contract of any kind — /developers, /api and
+    /docs all 404 on adastec.com, there is no api. or docs. subdomain, the GitHub organization has
+    zero public repositories, and the contact form is the only route to the platform.
+  evidence:
+  - url: https://www.adastec.com/flowride-ai
+    status: 200
+  - url: https://www.adastec.com/developers
+    status: 404
+  - url: https://www.adastec.com/api
+    status: 404
+  - url: https://www.adastec.com/.well-known/api-catalog
+    status: 404
+  checked: '2026-09-07'
+
+x-enrichment:
+  date: '2026-09-07'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v3

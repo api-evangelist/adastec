@@ -1,0 +1,60 @@
+generated: '2026-09-07'
+method: probed
+source: >-
+  Direct unauthenticated HTTPS probes of the named /.well-known path list on every host this
+  record knows (the registrable domain and its www host). ADASTEC publishes no API baseURL and
+  no OpenAPI servers[] host, so there is no third host to probe. flowride.ai — the product name —
+  resolves to AWS SES inbound-mail addresses and answers nothing on port 443, so it is not a web
+  host and was not probed for documents.
+note: >-
+  Every named path returned 404. The registrable domain answers /.well-known/* with an
+  "Invalid .well-known route" stub and every other path with the Webflow 404 page. No WellKnown
+  or SecurityTxt pointer is emitted in apis.yml, because nothing was served — this file records a
+  measured absence, not a provider surface.
+hosts:
+- host: www.adastec.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: adastec.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

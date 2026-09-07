@@ -1,0 +1,21 @@
+generated: '2026-09-07'
+method: searched
+source: https://www.adastec.com/
+note: >-
+  ADASTEC publishes no pricing page and no plans of any kind. Its full 116-URL sitemap carries no
+  /pricing, /plans, /packages or equivalent path, and the site navigation offers only home,
+  flowride.ai, deployments, announcements, news coverage, blog, gallery and contact us. flowride.ai
+  is sold as an enterprise engagement to bus OEMs and public-transit operators, integrated at the
+  factory into a vehicle programme, so commercial terms are set in a contract rather than published
+  as a tier list. The only route to commercial terms is the contact form / info@adastec.com.
+pricing_model: enterprise-contract
+pricing_page: null
+plan_count: 0
+plans: []
+evidence:
+- url: https://www.adastec.com/sitemap.xml
+  status: 200
+  finding: no pricing or plans URL among the 116 published pages
+- url: https://www.adastec.com/company-contact
+  status: 200
+  finding: contact form is the only commercial entry point
