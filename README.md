@@ -64,5 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Adastec is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/adastec
+ADASTEC Corp. is an automated-driving software company headquartered in East Lansing, Michigan, with offices in Helmond, Netherlands and Istanbul, Turkey. It develops flowride.ai, an SAE Level-4 automated driving software and sensor platform for full-size commercial vehicles — factory-fitted electric buses and minibuses operated on pre-mapped public-road routes. The platform is organized as flowride Drive (the on-vehicle automation stack and HMI connector), flowride Cloud (central control, data storage, data sharing and what the company markets as an Open API) and flowride Apps (remote management, command and control, a passenger application and analytics). Deployments run with transit operators and bus OEM partners including Karsan, Beep and Applied Autonomy across the United States, Sweden, Norway, Finland, Germany, Switzerland, the Netherlands, Romania and Turkey. ADASTEC is a premium member of the Autoware Foundation. No public developer portal, API reference or machine-readable contract is published for the flowride Cloud API.
+
+**Areas:** Company · Autonomous Vehicles · Automated Driving · Public Transit · Transportation · Mobility · Fleet Management · Automotive · Robotics
+
+## Adastec on APIs.io
+
+Everything profiled for Adastec is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/adastec/](https://apis.io/providers/adastec/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Adastec Domain Security](https://apis.io/security/adastec/adastec-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Adastec Plans Pricing](https://apis.io/plans/adastec/adastec-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.adastec.com/)
+- [Support](https://www.adastec.com/company-contact)
+- [Blog](https://www.adastec.com/blog)
+- [Privacy policy](https://cdn.prod.website-files.com/600ad06ae00a6210fd3a2752/6508bba82a8174f84bc7f9ed_Website%20Privacy%20and%20Cookie%20Policy.pdf)
+- [GitHub](https://github.com/adastec)
+
+## API Evangelist rating
+
+**Kin Score 13.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 18.4 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adastec/](https://apis.io/providers/adastec/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Adastec: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/adastec/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
